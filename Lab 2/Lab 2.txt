@@ -23,7 +23,8 @@
    mov ax,5
    mov bx,3
    add ax,bx 
-   sub ax,bx 
+   sub bx,ax 
+   sub ax,bx
    
 ;TASK 06 Perform the following arithmetic instructions. A, B, C are three variables to be declared beforehand 
    
@@ -147,7 +148,7 @@
      sub bx,si
 
      sub cs,di
-     sub ds,si,
+     sub ds,si
 
 ;Task 11 Perform the following arithmetic operation: (1 + 2) * (3 – 1) / 5 + 3 + 2 – (1 * 2)
     mov ax, 1
